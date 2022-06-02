@@ -1,0 +1,45 @@
+body {
+	margin: 0;
+	display: flex;
+	font-family: "Poppins", sans-serif;
+	flex-wrap: wrap;
+}
+
+nav {
+	max-width: 250px;
+	height: 100vh;
+	background-color: rgb(245, 241, 236);
+	border-right: 2px solid rgb(146, 145, 145);
+}
+
+nav header {
+	padding: 15px;
+}
+
+nav a {
+	padding: 15px;
+	border-top: 2px solid rgb(146, 145, 145);
+	text-decoration: none;
+	display: block;
+}
+
+main {
+	flex: 1;
+	max-height: 100vh;
+	overflow-y: scroll;
+}
+
+section {
+	padding: 15px;
+}
+
+header {
+	font-size: 22px;
+	font-weight: 500;
+}
+
+@media (max-width: 768px) {
+	#main-doc {
+		background-color: rgb(229, 218, 249);
+	}
+}
